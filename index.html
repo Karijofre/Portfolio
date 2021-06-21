@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="wrapper" id="main">
+
+    <header class="header">
+        <i class="fas fa-laptop-code"></i>
+        <nav class="menu" aria-label="main-navigation">
+            <ul>
+                <li>
+                    <a class="is-active" href="#main">Hola</a>
+                </li>
+                <li>
+                    <a href="#project">Proyectos</a>
+                </li>
+                <li>
+                    <a href="#contact">Hablemos</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="button">Curriculum</button>
+    </header>
+    <section aria-label="main" class="hero">
+        <div class="hero-image">
+            <img src="./img/kari3.jpg" width="250" height="500" alt="karina">
+        </div>
+        <div class="hero-description">
+            <h1>
+            <span>Hola a todos!</span>
+            <span>Soy Karina</span>
+            </h1>
+            <p>Frontend developer inspirada en la magia detrás de un código ✨</p>
+            <div class="social">
+                <a class="button-icon" href="Tel:+34650564090" ><img src="./icons/icon-phone.svg"></a>
+                <a class="button-icon" href="mailto:karinajofre@hotmail.com" target="_blank" ><img src="./icons/icon-important_mail.svg"></a>
+                <a class="button-icon" href="https://github.com/Karijofre" target="_blank" ><img src="./icons/icon-github.svg"></a>
+                <a class="button-icon" href="https://twitter.com/moroenbaires" target="_blank" ><img src="./icons/icon-twitter_squared.svg"></a>
+                <a class="button-icon" href="https://www.linkedin.com/in/karina-vanesa-jofre?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZSF37kGLRgqlSRvHJBj%2F0g%3D%3D" target="_blank" ><i class="fab fa-linkedin"></i></a>
+                </div>
+            <!-- <a href="https://ajdsl.com" class="button">Descargar curriculum</a> -->
+
+            <a href="./Karina-Vanesa-Jofre.pdf" download="Curriculum.Karina.V.Jofre" class="button">
+                Descargar curriculum
+                </a>
+        </div>
+
+    </section>
+     <!-- Algunos de mis proyectos -->
+    <div class="project" id="project">
+        <div class="project-image">
+            <img src="./img/comics.png" width="250" height="400" alt="comics">
+        </div>
+        <div class="project-description">
+            <a class="title" href="https://eli-ana-rjs.github.io/proyecto-5/">Comics-Marvel</a>
+            <p>Aquí encontrarás una aplicación que permite listar cómics y personajes de Marvel, obteniendo información sobre los mismos desde su API. Este es el resultado de un trabajo colaborativo con dos de mis compañeras de ADA ITW 💓 </p>
+            <a href="https://github.com/eli-ana-rjs/proyecto-5" target="_blank" class="button is-secondary">Ver código</a>
+            <a href="https://eli-ana-rjs.github.io/proyecto-5/" target="_blank" class="button">Ver proyecto</a>
+        </div>
+
+        
+    </div>
+   
+    <div class="project">
+        <div class="project-image">
+            <img src="./img/conferencias.png" width="250" height="400" alt="conferencias">
+        </div>
+        <div class="project-description">
+            <a class="title" href="https://karijofre.github.io/Web-Conferencias/">GDLWEBCAMP</a>
+            <p class="middle"> Conferencias-web, es un proyecto dónde, en la actualidad, voy incorporando lo aprendido en JavaScript, jquery, base de datos y conceptos de una página comercial. </p>
+            <a href="https://github.com/Karijofre/Web-Conferencias" target="_blank" class="button is-secondary middle">Ver código</a>
+            <a href="https://karijofre.github.io/Web-Conferencias/" target="_blank" class="button middle">Ver proyecto</a>
+        </div>
+
+        
+    </div>
+
+    
+    <div class="project">
+        <div class="project-image">
+            <img src="./img/piano-virtual.png" width="250" height="300" alt="todo-list">
+        </div>
+        <div class="project-description">
+            <a class="title" href="https://karijofre.github.io/Piano-react/">Piano react</a>
+            <p> Este es uno de mis primeros proyectos con React.js. Un piano virtual. </p>
+            <a href="https://github.com/Karijofre/Piano-react" target="_blank" class="button is-secondary">Ver código</a>
+            <a href="https://karijofre.github.io/Piano-react/" target="_blank" class="button" id="contact">Ver proyecto</a>
+        </div>
+    </div>
+
+    <div class="project">
+        <div class="project-image">
+            <img src="./img/todo-list.png" width="250" height="350" alt="conferencias">
+        </div>
+        <div class="project-description">
+            <a class="title" href="https://karijofre.github.io/Todo-List/">Piano-React</a>
+            <p class="middle"> En este proyecto vas a encontrar una aplicación que permite hacer una lista de tareas, marcar las tareas completadas ✔️ y poder eliminar 🗑 aquellas que ya no quieras o necesites. Firebase hace la magia con la base de datos. </p>
+            <a href="https://github.com/Karijofre/Todo-List" target="_blank" class="button is-secondary middle">Ver código</a>
+            <a href="https://karijofre.github.io/Todo-List/" target="_blank" class="button middle">Ver proyecto</a>
+        </div>
+
+        
+    </div>
+
+     <!-- Formulario de contacto -->
+    <form action="" method="POST" class="form" id="form">
+        <div class="form-content">
+            <h2 class="title">Hablemos</h2>
+        <p>Si tienes interés en trabajar conmigo, no dudes en ponerte en contacto:</p>
+        <label for="for-name">
+            Nombre completo
+        </label>
+        <input required type="text" name="name" id="for-name" placeholder="Nombre y apellido">
+        <label for="for-name">
+            E-mail*
+        </label>
+        <input required type="email" name="email" id="for-name" placeholder="correo@correo.com">
+        <label for="for-name">
+            Mensaje*
+            <textarea name="message" placeholder="Mensaje" id="form-message" cols="30" rows="7"></textarea>
+        </label>
+        
+        <button class="button" type="submit">Enviar mensaje</button>
+
+        </div>
+
+
+       
+    </form>
+    <a href="mailto:karinajofre@hotmail.com" id="recibido">e-mail</a>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+               <i class="fas fa-laptop-code"></i>
+            </div>
+            
+            <div class="social">
+                <a class="button-icon" href="Tel:+34650564090" ><img src="./icons/icon-phone.svg"></a>
+                <a class="button-icon" href="mailto:karinajofre@hotmail.com" target="_blank" ><img src="./icons/icon-important_mail.svg"></a>
+                <a class="button-icon" href="https://github.com/Karijofre" target="_blank" ><img src="./icons/icon-github.svg"></a>
+                <a class="button-icon" href="https://twitter.com/moroenbaires" target="_blank" ><img src="./icons/icon-twitter_squared.svg"></a>
+                <a class="button-icon" href="https://www.linkedin.com/in/karina-vanesa-jofre?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZSF37kGLRgqlSRvHJBj%2F0g%3D%3D" target="_blank" ><i class="fab fa-linkedin"></i></a>
+
+                </div>
+                <div class="footer-cpyright">
+                <p>
+                Hecho con 🧡 por Karina.
+                Copyright © 2021 - Todos los derechos reservados.
+                </p>
+               </div>
+
+        </div>
+        
+    </footer>
+    <script>
+       const $form = document.querySelector("#form")
+       const $buttonMailto = document.querySelector("#recibido")
+
+       $form.addEventListener("submit", handleSubmit )
+
+       function handleSubmit(event){
+        event.preventDefault()
+        const form = new FormData(this)
+        $buttonMailto.setAttribute("href", `mailto:karinajofre@hotmail.com?subject=nombre: ${form.get("name")} correo: ${form.get("email")}&body=${form.get("message")}`)
+        $buttonMailto.click()
+
+       }
+    </script>
+    </div>
+    
+    
+
+</body>
+</html>
