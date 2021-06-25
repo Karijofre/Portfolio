@@ -13,6 +13,10 @@
 .project-description .middle{
     width: 60%;
 }
+.project-description{
+    width: 60%;
+}
+
 
 
 .project-image img{
@@ -36,4 +40,29 @@
         flex: 1;
         text-align: center;
     }
+}
+@media screen and (min-width: 320px){
+    .project-image img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto; 
+    }
+    .project-description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto; 
+    }
+    .form .title{
+        width: 90%;
+        display: flex;
+    }
+    
 }
