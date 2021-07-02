@@ -11,7 +11,7 @@
 }
 
 .project-description .middle{
-    width: 60%;
+    width: 70%;
 }
 .project-description{
     width: 60%;
@@ -32,9 +32,7 @@
         padding-block-start: 80px;
         padding-block-end: 80px;
     }
-    .project-description{
-        flex: 1;
-    }
+    
     .project:nth-child(odd) .project-image{
         order: 2;
         flex: 1;
@@ -66,3 +64,4 @@
     }
     
 }
+
